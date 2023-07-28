@@ -1,0 +1,49 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: grey;
+}
+
+.display-info-label {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+}
+
+.display-info {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    background-color: white;
+    color: black;
+}
+
+#flash-msg {
+    display: flex;
+    justify-content: center;
+    color: red;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#year-round-form {
+    display: flex;
+    width: 10%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+#submit-btn {   
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 60px;
+}
